@@ -30,8 +30,47 @@ body {
 	border-top-left-radius: 35px;
 	border-top-right-radius: 35px;
 	border: solid #f1f1ef 10px;
+	border-bottom: dashed #f1f1ef 10px;
 	background-image: url("logofelt.png");
 	background-position: center;
+}
+
+#navDiv {
+	width: 1060px;
+	height: 30px;
+	margin: auto;
+	
+	padding: 5px 0px; /* 5px top and bottom, 0 left and right */
+	background-color: #323e4a;
+	border-bottom: solid #f1f1ef 10px;
+	border-left: solid #f1f1ef 10px;
+	border-right: solid #f1f1ef 10px;
+	background-image: url("background-felt.png");
+	background-position: center;
+}
+
+#navBar {
+	text-align: center; 
+	margin: auto;
+	line-height: 28px;
+	width: 1060px;
+}
+
+a:link {
+	color: #f1f1ef;
+	text-decoration: none;
+}
+a:visited {
+	color: #f1f1ef;
+	text-decoration: none;
+}
+a:hover {
+	color: #f1f1ef;
+	text-decoration: none;
+}
+a:active {
+	color: #f1f1ef;
+	text-decoration: none;
 }
 
 #gallery {
