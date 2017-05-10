@@ -20,4 +20,10 @@ setInterval(scroll, 40);
 
 window.onload = function() {
   adjustTableWidth();
-};
+}
+
+function dropDown(menuNum) {
+
+	document.getElementById(menuNum).style.visibility = visible;
+	
+}
