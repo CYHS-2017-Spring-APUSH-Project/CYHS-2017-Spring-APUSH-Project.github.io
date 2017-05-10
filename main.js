@@ -23,8 +23,8 @@ window.onload = function() {
 }
 
 // Im going to be coming back here later to work on this function - Bryce
-function dropDown(menuNum) {
+/*function dropDown(menuNum) {
 
 	document.getElementById(menuNum).style.visibility = visible;
 	
-}
+}*/
